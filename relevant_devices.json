@@ -14,6 +14,7 @@
         "specs": {
           "cpu": "Intel Core i7-8550U",
           "ram": "32GB",
+          "storage": "512GB NVMe",
           "network": "Gigabit Ethernet"
         }
       },
@@ -23,6 +24,7 @@
         "specs": {
           "cpu": "Intel Core i5-8400",
           "gpu": "AMD 530",
+          "storage": "600GB SATA HDD",
           "network": "Gigabit Ethernet"
         }
       },
@@ -31,7 +33,7 @@
         "ip_address": "192.168.1.62",
         "specs": {
           "cpu": "Intel Core i5-7400",
-          "storage": "1TB HDD",
+          "storage": "1TB SATA HDD",
           "network": "Gigabit Ethernet"
         }
       },
@@ -41,6 +43,7 @@
         "specs": {
           "cpu": "Intel Core i5-7500",
           "gpu": "Intel Integrated Graphics",
+          "storage": "256GB SATA SSD",
           "network": "Gigabit Ethernet"
         }
       },
@@ -50,6 +53,7 @@
         "specs": {
           "cpu": "AMD Ryzen 5 PRO 2400GE",
           "gpu": "AMD Radeon RX Vega 11",
+          "storage": "256GB NVMe",
           "network": "Gigabit Ethernet"
         }
       },
