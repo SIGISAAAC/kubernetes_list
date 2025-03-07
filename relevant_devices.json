@@ -1,0 +1,68 @@
+{
+  "kubernetes_cluster": {
+    "os": "Ubuntu Server 24.04.2 LTS",
+    "installation_method": "Ventoy",
+    "network_setup": {
+      "initial_switch": "Unmanaged switch",
+      "final_switch": "Rack-mountable switch",
+      "cabling_plan": "Custom Ethernet cables made by user"
+    },
+    "nodes": [
+      {
+        "name": "Control Plane",
+        "ip_address": "192.168.1.60",
+        "specs": {
+          "cpu": "Intel Core i7-8550U",
+          "ram": "32GB",
+          "network": "Gigabit Ethernet"
+        }
+      },
+      {
+        "name": "ComputeNode-1",
+        "ip_address": "192.168.1.61",
+        "specs": {
+          "cpu": "Intel Core i5-8400",
+          "gpu": "AMD 530",
+          "network": "Gigabit Ethernet"
+        }
+      },
+      {
+        "name": "ComputeNode-2",
+        "ip_address": "192.168.1.62",
+        "specs": {
+          "cpu": "Intel Core i5-7400",
+          "storage": "1TB HDD",
+          "network": "Gigabit Ethernet"
+        }
+      },
+      {
+        "name": "FlexNode-1",
+        "ip_address": "192.168.1.63",
+        "specs": {
+          "cpu": "Intel Core i5-7500",
+          "gpu": "Intel Integrated Graphics",
+          "network": "Gigabit Ethernet"
+        }
+      },
+      {
+        "name": "FlexNode-2",
+        "ip_address": "192.168.1.64",
+        "specs": {
+          "cpu": "AMD Ryzen 5 PRO 2400GE",
+          "gpu": "AMD Radeon RX Vega 11",
+          "network": "Gigabit Ethernet"
+        }
+      },
+      {
+        "name": "StorageNode-1",
+        "ip_address": "192.168.1.65",
+        "specs": {
+          "cpu": "AMD Ryzen 7 1700",
+          "storage": "1TB NVMe",
+          "network": "Gigabit Ethernet"
+        }
+      }
+    ]
+  }
+}
+
