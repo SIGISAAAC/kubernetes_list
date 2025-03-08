@@ -9,7 +9,7 @@
     },
     "nodes": [
       {
-        "name": "Control Plane",
+        "name": "control-node",
         "ip_address": "192.168.1.60",
         "specs": {
           "cpu": "Intel Core i7-8550U",
@@ -19,7 +19,7 @@
         }
       },
       {
-        "name": "ComputeNode-1",
+        "name": "compute-node1",
         "ip_address": "192.168.1.61",
         "specs": {
           "cpu": "Intel Core i5-8400",
@@ -29,7 +29,7 @@
         }
       },
       {
-        "name": "ComputeNode-2",
+        "name": "compute-node2",
         "ip_address": "192.168.1.62",
         "specs": {
           "cpu": "Intel Core i5-7400",
@@ -38,7 +38,7 @@
         }
       },
       {
-        "name": "FlexNode-1",
+        "name": "flex-node1",
         "ip_address": "192.168.1.63",
         "specs": {
           "cpu": "Intel Core i5-7500",
@@ -48,7 +48,7 @@
         }
       },
       {
-        "name": "FlexNode-2",
+        "name": "flex-node2",
         "ip_address": "192.168.1.64",
         "specs": {
           "cpu": "AMD Ryzen 5 PRO 2400GE",
@@ -58,7 +58,7 @@
         }
       },
       {
-        "name": "StorageNode-1",
+        "name": "storage-node1",
         "ip_address": "192.168.1.65",
         "specs": {
           "cpu": "AMD Ryzen 7 1700",
